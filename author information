@@ -1,0 +1,26 @@
+public class Author {
+String name;
+String email;
+char gender;
+Author(String n,String e,char g)
+{
+	name=n;
+	email=e;
+	gender=g;
+}
+void gender(char c)
+{
+	gender=c;
+}
+void display()
+{
+	System.out.println("name:"+ name  +" "+"email:"+ email+" "+"gender:"+gender+" ");
+}
+	public static void main(String[] args) {
+	Author A=new Author("KANA","KANA1618@gmail.com",'f');
+	A.gender('f');
+	A.display();
+	
+	}
+
+}
